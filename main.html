@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div>
+      <h1 id="mainHeading">Recap on JS</h1>
+    </div>
+
+    <div class="capture">
+      <h3>Register new pet on the system</h3>
+      <hr />
+      <!-- <div class="container"> -->
+      <div action="">
+        <label for="">Pet name:</label>
+        <input type="text" name="" id="txtName">
+        <br><br>
+        <label for="">Pet age:</label>
+        <input type="number" name="" id="txtAge">
+        <br><br>
+        <label for="">Owner name:</label>
+        <input type="text" name="" id="txtOwner">
+        <br><br>
+        <label for="">Owner phone</label>:</label>
+        <input type="text" name="" id="txtPhone">
+        <br><br>
+
+        <label for="">Service:</label>
+        <select name="" id="selService">
+          <option value="shower">Simple Shower</option>
+          <option value="spa">Spa Plus</option>
+          <option value="hair">Awesome Haircut</option>
+        </select>
+        <br><br>
+
+        <button onclick="registerPet();" type="button" class="btn btn-primary">Register Pet</button>
+        <button class="btn btn-secondary" onclick="clearForm();">Clear Form</button>
+      </div>
+    </div>
+    <!-- <h3>Current pets in the salon</h3>
+      <ul id="petList">
+      </ul> -->
+
+    <div class="list2">
+      <h3>Current pets in the salon </h3>
+
+      <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Age</th>
+              <th scope="col">Owner</th>
+              <th scope="col">Phone</th>
+              <th scope="col">Service</th>
+              <th scope="col">Options</th>
+            </tr>
+          </thead>           
+           <tbody id="listBody"></tbody>
+          <tbody>
+            <tr>
+            </tr>
+
+        </table>
+<!-- 
+        <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Owner</th>
+                <th>Phone</th>
+                <th>Service</th>
+              </tr>
+            </thead>
+
+            </tbody>
+          </table> -->
+        </div>
+    
+<!--         
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table> -->
+
+
+  </div>
+
+  <!-- </div> -->
+  <script src="app.js"></script>
+  <script src="DOMtest.js"></script>
+
+</body>
+
+</html>
